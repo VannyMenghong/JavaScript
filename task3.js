@@ -8,7 +8,7 @@ function myfunction() {
         function Sort(a, b) {
             return a - b;
         }
-        document.getElementById("output").innerHTML = "Result : " + arr;
+        document.getElementById("output").innerHTML = "Result : " + "arr = [" + arr.join(" , ") + " ] ;";
     }
     else {
         document.getElementById("output").innerHTML = "Please input a number";
